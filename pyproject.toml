@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "agentmesh"
+version = "0.0.1"
+description = ""
+authors = ["eric-epsilla <eric@epsilla.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
