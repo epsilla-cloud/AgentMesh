@@ -4,8 +4,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="agenticmesh",
-    version=open("./agenticmesh/VERSION").read().strip(),
+    name="pyagentmesh",
+    version=open("./pyagentmesh/VERSION").read().strip(),
     keywords="epsilla",
     author="Epsilla Team",
     author_email="info@epsilla.com",
