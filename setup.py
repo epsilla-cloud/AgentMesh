@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="pyagentmesh",
-    version=open("./pyagentmesh/VERSION").read().strip(),
+    version=open("pyproject.toml").readlines()[2].split('"')[-2],
     keywords="epsilla",
     author="Epsilla Team",
     author_email="info@epsilla.com",
