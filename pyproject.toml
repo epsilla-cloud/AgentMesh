@@ -3,6 +3,8 @@ name = "pyagentmesh"
 version = "0.0.1"
 description = "Orchestration Framework for Multi-Agent and Micro-Agent"
 authors = ["eric-epsilla <eric@epsilla.com>"]
+readme = "README.md"
+long_description_content_type = "text/markdown"
 
 [tool.poetry.dependencies]
 python = "^3.10"
