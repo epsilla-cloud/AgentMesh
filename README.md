@@ -1,6 +1,6 @@
 # 🚀 Epsilla AgentMesh
 
-Epsilla AgentMesh is an open-source multi-agent governance and orchestration platform, inspired by service mesh architecture, designed to help you build, scale, and manage powerful AI agent systems with unified communication, policy control, and observability.
+Epsilla AgentMesh is an open-source governance and orchestration framework for multi-agent and micro-agent, inspired by service mesh architecture, designed to help you build, scale, and manage powerful AI agent systems with unified communication, policy control, and observability.
 
 ---
 
