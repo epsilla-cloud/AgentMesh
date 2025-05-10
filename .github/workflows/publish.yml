@@ -62,3 +62,14 @@ jobs:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
 
+    - name: Install dependencies and build for mcp-server-mesh
+      run: |
+        sed -i 's/name = "pyagentmesh"/name = "mcp-server-mesh"/' pyproject.toml
+        sed -i 's/name="pyagentmesh"/name="mcp-server-mesh"/' setup.py
+        python -m build --sdist --wheel --outdir dist/ .
+    
+    - name: Publish distribution to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_API_TOKEN }}
