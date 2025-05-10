@@ -1,6 +1,6 @@
-# 🚀 Epsilla AgentMesh
+# 🚀 Epsilla AgenticMesh
 
-Epsilla AgentMesh is an open-source governance and orchestration framework for multi-agent and micro-agent, inspired by service mesh architecture, designed to help you build, scale, and manage powerful AI agent systems with unified communication, policy control, and observability.
+Epsilla AgenticMesh is an open-source governance and orchestration framework for multi-agent and micro-agent, inspired by service mesh architecture, designed to help you build, scale, and manage powerful AI agent systems with unified communication, policy control, and observability.
 
 ---
 
@@ -28,7 +28,7 @@ Run as sidecars, centralized proxies, or lightweight agents — on Kubernetes, c
 
 ## 📐 Architecture
 
-![AgentMesh Architecture](./docs/architecture-diagram.png)
+![AgenticMesh Architecture](./docs/architecture-diagram.png)
 
 Core components:
 - **Communication Proxy**: Message routing & protocol handling.
@@ -41,14 +41,14 @@ Core components:
 
 ### 1️⃣ Install
 ```bash
-git clone https://github.com/epsilla-cloud/AgentMesh.git
-cd AgentMesh
-pip install -r requirements.txt
+git clone https://github.com/epsilla-cloud/AgenticMesh.git
+cd AgenticMesh
+poetry install
 ```
 
 ### 2️⃣ Run Example Demo
 ```bash
-python examples/run_demo.py
+poetry run python3 examples/demo.py
 ```
 
 ### 3️⃣ Launch Dashboard (Optional)
@@ -91,13 +91,13 @@ This project is licensed under the Apache 2.0 License — see the [LICENSE](./LI
 
 ---
 
-> **Note:** AgentMesh is a reference implementation and experimental platform by the Epsilla team to explore next-generation agent governance patterns. We are excited to evolve this together with the open-source community!
+> **Note:** AgenticMesh is a reference implementation and experimental platform by the Epsilla team to explore next-generation agent governance patterns. We are excited to evolve this together with the open-source community!
 
 ---
 
 ## 📥 CONTRIBUTING.md
 
-Thank you for considering contributing to AgentMesh! Here’s how you can help:
+Thank you for considering contributing to AgenticMesh! Here’s how you can help:
 
 ### 📦 Reporting Issues
 - Use the GitHub Issues tab to report bugs or request features.
@@ -134,14 +134,14 @@ Unless required by applicable law or agreed to in writing, software distributed 
 ```python3
 # examples/demo.py
 
-from agenticmesh import AgentMesh, Agent
+from agenticmesh import AgenticMesh, Agent
 
 # Define example agents
 agent_a = Agent(name="AgentA", capabilities=["task1", "task2"])
 agent_b = Agent(name="AgentB", capabilities=["task3"])
 
 # Initialize mesh
-mesh = AgentMesh()
+mesh = AgenticMesh()
 mesh.register(agent_a)
 mesh.register(agent_b)
 
