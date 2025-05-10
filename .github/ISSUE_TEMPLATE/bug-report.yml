@@ -1,5 +1,5 @@
 name: 🐞 Bug
-description: Report a bug or an issue you've found with the Epsilla AgentMesh
+description: Report a bug or an issue you've found with the Epsilla AgenticMesh
 title: "[Bug] <title>"
 labels: ["bug", "triage"]
 body:
@@ -9,15 +9,15 @@ body:
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
     attributes:
-      label: Is this a new bug in the Epsilla AgentMesh?
+      label: Is this a new bug in the Epsilla AgenticMesh?
       description: >
-        In other words, is this an error, flaw, failure or fault in the AgentMesh?
+        In other words, is this an error, flaw, failure or fault in the AgenticMesh?
 
         If this is a request for help or troubleshooting code in your own project, please join [the Epsilla Discord](https://discord.com/invite/cDaY2CxZc5)
 
         Please search to see if an issue already exists for the bug you encountered.
       options:
-        - label: I believe this is a new bug in the Epsilla AgentMesh
+        - label: I believe this is a new bug in the Epsilla AgenticMesh
           required: true
         - label: I have searched the existing issues, and I could not find an existing issue for this bug
           required: true
