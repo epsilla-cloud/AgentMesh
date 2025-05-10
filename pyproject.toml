@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agentmesh"
+name = "pyagentmesh"
 version = "0.0.1"
 description = ""
 authors = ["eric-epsilla <eric@epsilla.com>"]
