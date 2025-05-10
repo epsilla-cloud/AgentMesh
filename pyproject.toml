@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pyagentmesh"
 version = "0.0.1"
-description = ""
+description = "Orchestration Framework for Multi-Agent and Micro-Agent"
 authors = ["eric-epsilla <eric@epsilla.com>"]
 
 [tool.poetry.dependencies]
