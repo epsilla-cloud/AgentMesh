@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "agenticmesh"
-version = "0.0.5"
+version = "0.0.6"
 description = "Orchestration Framework for Multi-Agent and Micro-Agent"
 authors = ["eric-epsilla <eric@epsilla.com>"]
 readme = "README.md"
