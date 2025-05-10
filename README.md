@@ -129,12 +129,12 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ---
 
-## 🧪 Example Demo Script (examples/run_demo.py)
+## 🧪 Example Demo Script (examples/demo.py)
 
-```python
-# examples/run_demo.py
+```python3
+# examples/demo.py
 
-from AgentMesh import AgentMesh, Agent
+from agenticmesh import AgentMesh, Agent
 
 # Define example agents
 agent_a = Agent(name="AgentA", capabilities=["task1", "task2"])
@@ -149,7 +149,3 @@ mesh.register(agent_b)
 result = mesh.send_task(from_agent="AgentA", to_agent="AgentB", task="task3", payload={"data": "demo"})
 print("Task result:", result)
 ```
-
----
-
-Let me know if you need full starter code or prebuilt dashboard templates!
